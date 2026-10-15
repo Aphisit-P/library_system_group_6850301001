@@ -1,0 +1,51 @@
+:root {
+  --brand: #3a3a86;
+  --brand-dark: #26265c;
+  --accent: #d98c3d;
+}
+body {
+  font-family: 'Noto Sans Thai', -apple-system, sans-serif;
+  background: #f4f5fa;
+}
+.app-navbar {
+  background: linear-gradient(90deg, var(--brand), var(--brand-dark));
+}
+.card {
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.06);
+}
+.stat-card {
+  border-radius: 14px;
+  padding: 1.25rem;
+  color: #fff;
+}
+.stat-card h3 { font-size: 1.9rem; margin: 0; font-weight: 700; }
+.stat-card p { margin: 0; opacity: .9; }
+.bg-grad-1 { background: linear-gradient(135deg,#3a3a86,#5a5ac4); }
+.bg-grad-2 { background: linear-gradient(135deg,#d98c3d,#e8ad6c); }
+.bg-grad-3 { background: linear-gradient(135deg,#2f9e6e,#4dc38f); }
+.bg-grad-4 { background: linear-gradient(135deg,#c94b4b,#e07a7a); }
+.btn-brand {
+  background: var(--brand);
+  color: #fff;
+  border: none;
+}
+.btn-brand:hover { background: var(--brand-dark); color:#fff; }
+.badge-available { background:#2f9e6e; }
+.badge-borrowed { background:#c94b4b; }
+.book-cover-placeholder {
+  height: 90px; width: 65px;
+  background: linear-gradient(135deg,#3a3a86,#5a5ac4);
+  border-radius: 6px;
+  color:#fff; display:flex; align-items:center; justify-content:center;
+  font-size: 1.4rem;
+}
+table.table thead { background: #eef0fb; }
+.auth-wrapper {
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.auth-card { max-width: 420px; width: 100%; }
